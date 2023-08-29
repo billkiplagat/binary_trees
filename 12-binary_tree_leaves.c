@@ -13,9 +13,8 @@ return (0);
 }
 if (tree->left == NULL && tree->right == NULL)
 {
-return 1;
+return (1);
 }
-/* Recursively count the leaves in the left and right subtrees
-then sum and return */
+/*count the leaves in the left and right subtrees then + and return*/
 return (binary_tree_leaves(tree->left) + binary_tree_leaves(tree->right));
 }
